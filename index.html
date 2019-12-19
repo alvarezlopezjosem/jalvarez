@@ -1,12 +1,104 @@
+<!-- 
 <!DOCTYPE html>
 <html>
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-<title>Jose M. Alvarez's Website</title>
+  <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="expires" content="0" />
+    <meta name="author" content="Jose M. Alvarez" />
+    <meta name="description" content="José M. Álvarez's homepage">
+<meta name="keywords" lang="en" content="Jose M., Alvarez, Jose M. Alvarez,  Lopez, intelligent vehicles, geometric layout, road scene segmentation, semantic segmentation, computer, vision, road, detection, publications, projects, dental, surgery, Computer Vision, ADAS, Driver, Driver Assistance Systems, Image PRocessing, Road, Detection, Photometric, Invariant, Invariance, Color, Volumeter, Road Detection, Road      Segmentation, Autonomous Driving, CVPR, 3d Scene Priors for Road Detection, GPS Navigation, Road Detection, Road Scene Understanding, Photometric Invariants">
+  <link rel="stylesheet" type="text/css" href="./website/style.css" />
+<title>Jose M. Alvarez</title>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+ 
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+   
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+</script>
 </head>
 <body>
-
+  <div id="wrapper">
+      <div id="banner"><img src="header2.png" alt="Jose M. Alvarez" width="1040" height="80" longdesc="Jose Alvarez, research">       
+        <div class="subheader">
+          <h2>Deep Learning and Computer Vision for Autonomous Driving</h2>
+          <p>Senior Research Scientist</p>
+        </div>
+      </div>
+<div id="container">    
+<div id="horizontallineShort">
+</div>
+   
+ 
+ <div id="sidebar">      
+        <ul id="navigation">
+          <li><a class="menu" href="./">Home</a></li>
+          <li><a class="menu" href="./pubs.php">Publications</a></li>
+          <li><a class="menu" rel="author"  type="text/html" href="./demos.php">Demos</a></li>
+          <li><a class="menu" href="./research_bbdd.php">Databases & Code</a></li>          
+          <li><a class="menu" href="./students.html">Students</a></li>
+          <li><a class="menu" href="./pactivities.html">Prof. Activities</a></li>
+  <li><a class="menu" href="./website/JMAlvarezW.pdf" target="_blank">Curriculum Vitae</a></li>
+  <li><a class="menu" href="./contact.php">Contact</a></p></li>
+        </ul>   
+</div>
+<div id="main">
+<h2>Demos</h2>
+    <DemoTitle>Real Time Semantic Segmentation using Efficient Networks</span></DemoTitle>
+    <table cellspacing="17" cellpadding="0">
+    <tr>
+      <td valign="top">
+    <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" width="640" height="368" id="FLVPlayer">
+      <param name="movie" value="FLVPlayer_Progressive.swf" />
+      <param name="salign" value="lt" />
+      <param name="quality" value="high" />
+      <param name="scale" value="noscale" />
+      <param name="FlashVars" value="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=website/IV2017_0306_VD_i&autoPlay=true&autoRewind=false" />
+      <embed src="FLVPlayer_Progressive.swf" flashvars="&MM_ComponentVersion=1&skinName=Clear_Skin_1&streamName=website/IV2017_0306_VD_i&autoPlay=true&autoRewind=false" quality="high" scale="noscale" width="480" height="276" name="FLVPlayer" salign="LT" type="applic$
+    </object>         
+      </td>
+<td valign="top" align="justify">
+<p> An Efficient Network for real time semantic segmentation (even in embedded platforms). A join work with Eduardo Romera and Luis M. Bergasa.<p>
+    </td>
+</tr>
+</div>
 <h1>Hello Internet!</h1>
 <p>This is a paragraph.</p>
 <script>alert('Random Javascript!');</script>
+
+
+
+
 </body>
 </html>
